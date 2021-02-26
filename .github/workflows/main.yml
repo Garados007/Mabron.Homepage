@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: install deps
-        run: sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install -y wget
+        run: sudo apt-get install -y wget
         
       - name: build site
         run: chmod +x build.sh && ./build.sh
