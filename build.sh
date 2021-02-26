@@ -4,3 +4,4 @@
 mkdir publish
 cp -r de publish/
 cp -r en publish/
+
