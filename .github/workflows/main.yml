@@ -1,0 +1,26 @@
+name: Mabron Publish
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: install deps
+        run: apt update -y && apt upgrade -y && apt install -y wget
+        
+      - name: build site
+        run: chmod +x build.sh && ./build.sh
+
+      - name: run worker script
+        run: |
+          wget https://mabron.de/updater/upload.sh -O upload.sh
+          chmod +x upload.sh
+          cd publish
+          ../upload.sh -u "https://mabron.de/updater/" -d "www.mabron.de" -p "" \
+            -t ${{ secrets.MABRON_UPDATE_TOKEN }}
