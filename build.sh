@@ -1,14 +1,16 @@
 #!/bin/bash
 
 # install deps
-sudo apt-get install -y markdown
+sudo apt-get install -y pandoc
 
 # build markdown
 for i in `find . -name "*.md" -type f`; do
-    markdown \
-        -f links,image,smarty,html,ext,cdata,superscript,emphasis,del,toc,divquote,alphalist,definitionlist,footnote \
-        -o "$(realpath \"$(dirname \"$i\")/$(basename \"$i\" .md).html\")" \
-        "$(realpath \"$i\")"
+    newpath="$(dirname "$i")/$(basename "$i" .md).html"
+    pandoc \
+        --from markdown \
+        --to html \
+        -o "$(realpath "$newpath")" \
+        "$(realpath "$i")"
 done
 
 # copy files to output
