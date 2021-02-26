@@ -7,8 +7,8 @@ sudo apt-get install -y markdown
 for i in `find . -name "*.md" -type f`; do
     markdown \
         -f links,image,smarty,html,ext,cdata,superscript,emphasis,del,toc,divquote,alphalist,definitionlist,footnote \
-        -o "$(basename \"$i\" .md).html" \
-        "$i"
+        -o "$(realpath \"$(dirname \"$i\")/$(basename \"$i\" .md).html\")" \
+        "$(realpath \"$i\")"
 done
 
 # copy files to output
