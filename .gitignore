@@ -1,0 +1,4 @@
+# build path for zola serve
+/public
+# build path for publish
+/publish
