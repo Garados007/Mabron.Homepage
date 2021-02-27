@@ -21,7 +21,7 @@ minify_html = true
 build_search_index = true
 
 # When set to "true", a feed is automatically generated.
-generate_feed = false
+generate_feed = true
 
 taxonomies = [
     {name = "tags", rss = true},
