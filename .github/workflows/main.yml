@@ -13,13 +13,23 @@ jobs:
       
       - name: install deps
         run: sudo apt-get install -y wget
+      
+      - name: create output
+        run: mkdir -p publish
         
       - name: build site
         run: chmod +x build.sh && ./build.sh
+        
+      - name: 'Build Zola' 
+        uses: shalzz/zola-deploy-action@master
+        env:
+          BUILD_DIR: .
+          BUILD_FLAGS: --output-dir publish --base-url https://mabron.de/webroot/www/
+          BUILD_ONLY: true
 
       - name: run worker script
         run: |
-          wget https://mabron.de/updater/upload.sh -O upload.sh
+          wget https://mabron.de/updater/upload.hash.sh -O upload.sh
           chmod +x upload.sh
           cd publish
           ../upload.sh -u "https://mabron.de/updater/" -d "www.mabron.de" -p "" \
