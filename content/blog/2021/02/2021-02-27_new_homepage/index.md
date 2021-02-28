@@ -1,7 +1,7 @@
 +++
 title = "Neue Webpräsenz"
 [taxonomies]
-tags=["mabron","github"]
+tags=["mabron","blog","github"]
 +++
 
 Seit dem 17. Juni 2015 habe ich diese Domain nun und einige Projekte wurden damit umgesetzt und
