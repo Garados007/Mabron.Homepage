@@ -30,36 +30,51 @@
         <h1>{{ config.title }}</h1>  
           {{ macro::tree() }}
       {% endblock nav %}
+
+      {% block toc %}
+
+      {% if section %}
+        {% set toc = section.toc %}
+      {% else %}
+        {% if page %}
+          {% set toc = page.toc %}
+        {% else %}
+          {% set toc = [] %}
+        {% endif %}
+      {% endif %}
+
+      {% set_global header_count = 0 %}
+      {% for h2 in toc %}
+        {% set_global header_count = header_count + 1 %}
+        {% for h3 in h2.children %}
+          {% set_global header_count = header_count + 1 %}
+          {% for h4 in h3.children %}
+            {% set_global header_count = header_count + 1 %}
+          {% endfor %}
+        {% endfor %}
+      {% endfor %}
+
+      {% if header_count > 4 or true %}
+          <ul id="toc">
+            {% for h2 in toc %}
+              <li><a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
+              {% if h2.children %}<ul>        
+                {% for h3 in h2.children %}
+                <li><a href="{{ h3.permalink | safe }}">{{ h3.title }}</a></li>
+              {% endfor %}
+            </ul>
+      {% endif %}
+            </li>
+      {% endfor %}
+          </ul>
+      {% endif %}
+
+      {% endblock toc %}
+
       </nav>
 
       <main>
       {% block content %}
-
-        {% set_global header_count = 0 %}
-        {% for h2 in section.toc %}
-          {% set_global header_count = header_count + 1 %}
-          {% for h3 in h2.children %}
-            {% set_global header_count = header_count + 1 %}
-            {% for h4 in h3.children %}
-              {% set_global header_count = header_count + 1 %}
-            {% endfor %}
-          {% endfor %}
-        {% endfor %}
-
-        {% if header_count > 4 %}
-            <ul id="toc">
-              {% for h2 in section.toc %}
-                <li><a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
-                {% if h2.children %}<ul>        
-                  {% for h3 in h2.children %}
-                  <li><a href="{{ h3.permalink | safe }}">{{ h3.title }}</a></li>
-                {% endfor %}
-              </ul>
-        {% endif %}
-              </li>
-        {% endfor %}
-            </ul>
-        {% endif %}
 
         <article>
         {{ section.content | safe }}

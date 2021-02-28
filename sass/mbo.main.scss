@@ -9,3 +9,62 @@ div.posts article.post h3 a {
 div.posts article.post h3 a:hover {
     text-decoration: underline;
 }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 16px;
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+td,
+th {
+  padding: 0;
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+nav {
+  /* max-width: 40rem; */
+  max-width: 20rem;
+}
+
+main {
+  /* width: 48vw; */
+  /* padding: 4vw; */
+  /* max-width: 55rem; */
+  flex-shrink: 1;
+  margin: 4vw;
+  flex: 1 1 48vw;
+  min-width: 48vw;
+  width: unset;
+  padding: unset;
+  max-width: unset;
+}
+
+code {
+    font-size: 0.85em;
+}
+#taxonomies ul {
+  flex-flow: row wrap;
+}
+#taxonomies ul li {
+  margin: 0 0.25em;
+}
