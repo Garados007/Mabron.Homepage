@@ -1,0 +1,86 @@
++++
+title = "Slang"
++++
+
+# Schattenslang {{ pagenum(num="14f") }}
+
+- **Abflug!** *Ausruf* – Geh weg. Schwirr ab.
+- **ausgeworfen werden** *V.* – unfreiwillig aus der Matrix fl iegen.
+- **ausstöpseln** *V.* – eine Datenbuchsen-Verbindung mit der Matrix oder einem anderen Gerät unterbrechen.
+- **Auswurfschock**, der – das schmerzhafte Erlebnis, gewaltsam aus der Matrix geworfen zu werden, während man gerade tief in multisensorischen Interaktionen steckte.
+- **Bottichjob**, der – Person mit ausgiebiger Vercyberung; Anspielung auf die Phase des Prozesses, in der die Person in einer  Nährlösung schwimmt.
+- **Breeder**, der – Ork-Slang für einen „normalen“ Menschen.
+- **chill** *Adj.* – gut, cool, allgemein akzeptiert.
+- **chipwahr**! *Ausruf* – Das ist die Wahrheit/eine Tatsache.
+- **Chrom**, das – Cyberware, vor allem offensichtliche Modifikationen.
+- **Chummer**, der – Freund, Kumpel.
+- **Cred**, das – Geld. Manchmal auch Ruf, vor allem guter Ruf (dann die Cred).
+- **Datenklau**, der – Diebstahl von auf einem Computer gespeicherten Daten, meist durch Hacking.
+- **Datensklave**, der – Konzerndecker oder anderer in der Datenverarbeitung beschäftigter Angestellter.
+- **Deck**, das – Cyberdeck.
+- **decken** *V.* – ein Cyberdeck benutzen.
+- **Decker**, der – eine Person, die illegal ein Cyberdeck verwendet.
+- **Deckhead**, der – SimSinn-Abhängiger.
+- **Drek**, der – (vulgär) Scheiße. Verbreiteter Kraftausdruck.
+- **einstöpseln** *V.* – sich mittels einer Datenbuchse mit der Matrix oder einem anderen Gerät verbinden.
+- **Eis**, das – Sicherheitssoftware. Von „Intrusion Countermeasure“ oder IC („Eis“ gesprochen).
+- **Exec**, der – ein Konzernmanager.
+- **Fleisch**, das – physischer Körper; das, was zurückbleibt, wenn man in den Astralraum oder die Matrix geht. Auch: zum Verkauf (illegal) entnommene Organe.
+- **geeken** *V.* – töten.
+- **Go-Gang**, die – Motorradgang.
+- **Hacker**, der – jemand, der illegal mit der Matrix interagiert, entweder unter Verwendung eines Cyberdecks (Decker) oder kraft seines Geistes (Technomancer).
+- **Halber**, der – abfälliger Ausdruck für Zwerge.
+- **Hauer**, der – (vulgär) Abfälliger Ausdruck für Orks oder Trolle.
+- **Hoi** *Ausruf* – verbreitetes Begrüßungswort. Hallo, hi.
+- **Hoop**, der – (vulgär) Hinterteil.
+- **jandern** *V.* – auf arrogante und lässige Weise gehen; stolzieren.
+- **Jing**, das – Geld, meist Bargeld.
+- **Kobun**, der – (japanisch) Angehöriger eines Yakuzaclans.
+- **Komm**, das – kurz für Kommlink, Telefon, Computer, Audioplayer, Spielkonsole und was man noch in der Handfl äche halten kann.
+- **Kon**, der – Kurzform von Konzern.
+- **Lohnmagier**, der – ein Zauberer (meistens Magier) in den Diensten eines Konzerns.
+- **Lohnsklave**, der – Konzernangestellter der untersten Gehaltsklasse.
+- **Löwenzahnfresser**, der – Schimpfwort für Elfen.
+- **Merc**, der – Söldner.
+- **Messerklaue**, die – Person mit umfangreichen Kampfmodifi kationen.
+- **Mojo**, das – Magie. Zauberspruch.
+- **Mr./Mrs. Johnson** – anonymer Auftraggeber oder Konzernvertreter.
+- **mundan** *Adj.* – nicht magisch.
+- **Nutrisoy**, das – preiswerter Nahrungsgrundstoff, aus Sojabohnen gewonnen.
+- **Nuyen**, der – weltweite Standardwährung.
+- **Omae** – enger Freund; oft sarkastisch gemeint.
+- **Organschmuggel**, der – Handel mit Organen oder Cyberware, die (vor dem Eingriff noch) lebenden Personen entnommen wurden.
+- **Oyabun**, der – (japanisch) Kopf eines Yakuzaclans.
+- **Paydata** *nur Plural* – Daten, die auf dem Schwarzmarkt Geld bringen.
+- **Pixie**, der, die – (vulgär) Elf. Auch: Elfenposer.
+- **Plex**, der – kurz für Metroplex (großer städtischer Komplex).
+- **Poli**, der – Policlub oder Mitglied eines Policlubs.
+- **Samurai**, der – (japanisch) Söldner oder Mietmuskel. Impliziert einen Ehrenkodex oder guten Ruf.
+- **Sararimann**, der – (japanisch) Konzernangestellter.
+- **Screamer**, der – Credstick oder anderer Identitätsnachweis, der bei Benutzung Alarm auslöst.
+- **Scrip**, das – Währung, die nicht der Nuyen ist; meist von Megakonzernen herausgegebene Währung.
+- **SimSinn**, das – eine sensorische Übertragung oder Aufzeichnung, die den Betrachter das erleben und fühlen lässt, was die Darsteller erleben und fühlen.
+- **SIN**, die – Systemidentifi kationsnummer; wird jedem Mitglied der Gesellschaft zugeteilt.
+- **SINlos** *Adj.* – keine SIN habend.
+- **SINlose**, der, die – Person ohne SIN.
+- **SINner**, der – Person mit SIN. Ehrliche Person.
+- **Slot**, der – (vulgär) Kraftausdruck; Anspielung auf weibliche Genitalien. Auch: Eingabeschlitz eines Lesegeräts für Credsticks oder Chips.
+- **So ka!** *Ausruf* – (japanisch) Verstanden. Kapiert.
+- **Soykaf**, der – Kaffeeersatz aus Sojabohnen.
+- **Sprawl**, der – Metroplex (siehe Plex).
+- **Squat**, der – verlassene Stadtregion, die Obdachlosen als Unterschlupf dient. Auch: Abfälliger Ausdruck für Zwerge.
+- **Squischie**, der – (vulgär) Abfälliger Ausdruck für Zwerg, Elf oder Mensch. Meist von Orks oder Trollen verwendet.
+- **Star**, Der – die Polizei. Ursprünglich ausschließlich für Lone Star verwendet.
+- **Statik**, die – Ärger, in der Regel mit anderen Personen.
+- **Streifen**, der – Magazin für eine Feuerwaffe.
+- **swag** *Adj.* – fantastisch, spitze.
+- **Trideo**, das – der 3D-Nachfolger des Videos. Kurz auch Trid.
+- **Trog**, der, die – (vulgär) Abfälliger Ausdruck für Orks oder Trolle.
+- **verchippt** *Adj.* – durch Cyberware verstärkte Sinne, Fertigkeiten, Refl exe, Muskeln usw.
+- **verdrahtet**, *Adj.* – mit Cyberware ausgestattet, vor allem mit gesteigerten Refl exen.
+- **Weiswurm**, der – Drache.
+- **Wetwork** – Mord. Attentat.
+- **wiz**, *Adj.* – großartig, cool.
+- **Wizard**, der – Zauberer, meistens Magier.
+- **Yak**, der, die – (japanisch) kurz für Yakuza; entweder die Organisation oder ein Mitglied derselben.
+- **Zaibatsu**, der – (japanisch) Megakonzern.
