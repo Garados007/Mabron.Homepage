@@ -8,7 +8,6 @@ sort_by="date"
 weight = 10
 
 paginate_by = 10
-paginate_reversed=true
 
 insert_anchor_links = "right"
 
