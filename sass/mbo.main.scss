@@ -60,7 +60,8 @@ main {
 }
 
 code {
-    font-size: 0.85em;
+  font-size: 0.85em;
+  hyphens: none;
 }
 #taxonomies ul {
   flex-flow: row wrap;

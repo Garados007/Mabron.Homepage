@@ -32,6 +32,18 @@ haben, trafen wir uns am 19.03. online zur Siegerehrung wieder. Leider konnte un
 meisten Aufgaben nicht groß abschneiden, aber bei der 3D Packing Aufgabe haben wir alle anderen
 massiv out-performed. Zu ein paar der Aufgaben werde ich demnächst noch ein paar Artikel schreiben.
 
+## Meine Punktzahlen
+
+- **Geschenke** (Team): 0,818 Punkte (Platz 3)
+- **Vehicle Routing** (Team): 0,315 Punkte (Platz 3, beste optimale Lösung)
+- **3D Packing** (Team): 1,168 Punkte (Platz 1)
+- **Fubini** (Einzel): 0 Punkte (Platz 7)
+    > Hier ist erst nach der Abgabe aufgefallen, dass mein Programm nur 0-llen ausgibt. Konnte das
+    > erst nach Ablauf der Zeit fixen.
+- **Komprimierung** (Einzel): 0,432 Punkte (Platz 4)
+
+**Ergebnis**: 2,733 Punkte (Platz 4)
+
 ## Links
 
 Unsere Team-Lösungen:
