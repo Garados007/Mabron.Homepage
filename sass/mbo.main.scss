@@ -85,3 +85,7 @@ blockquote {
   border-left: 0.3em solid;
   padding-left: 1em;
 }
+noscript > code {
+  white-space: pre;
+  overflow: auto;
+}
