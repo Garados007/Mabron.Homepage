@@ -94,3 +94,4 @@ include_content = true
 
 [extra]
 # Put all your custom variables here
+katex_enable = true #https://github.com/getzola/even#katex-math-formula-support
