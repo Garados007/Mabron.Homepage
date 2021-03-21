@@ -58,7 +58,9 @@ main {
   padding: unset;
   max-width: unset;
 }
-
+div.equation {
+  overflow: auto;
+}
 code {
   font-size: 0.85em;
   hyphens: none;
