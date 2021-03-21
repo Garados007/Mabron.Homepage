@@ -24,7 +24,7 @@ jobs:
         uses: shalzz/zola-deploy-action@master
         env:
           BUILD_DIR: .
-          BUILD_FLAGS: --output-dir publish --base-url https://mabron.de/webroot/www/
+          BUILD_FLAGS: --output-dir publish --base-url https://mabron.de/
           BUILD_ONLY: true
 
       - name: run worker script
