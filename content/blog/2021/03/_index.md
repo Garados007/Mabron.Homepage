@@ -5,4 +5,5 @@ sort_by="date"
 weight=3
 paginate_by=10
 template = "blog-section.html"
+insert_anchor_links = "right"
 +++
