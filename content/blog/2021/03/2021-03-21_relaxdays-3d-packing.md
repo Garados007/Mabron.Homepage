@@ -89,7 +89,7 @@ Zuerst haben wir alle Artikel nach der Standardabweichung der Dimensionen abstei
 
 {% katex(block=true) %}
 \begin{align*}
-      \mu &= (x(dim_{a}(j)) + y(dim_{a}(j)) + z(dim_{a}(j))) \\
+      \mu &= \frac{x(dim_{a}(j)) + y(dim_{a}(j)) + z(dim_{a}(j))}{3} \\
 score(j) &= |x(dim_{a}(j)) - \mu| + |y(dim_{a}(j)) - \mu| + |z(dim_{a}(j)) - \mu|
 \end{align*}
 {% end %}
@@ -167,7 +167,7 @@ Score und wählen davon die mit dem höchsten:
 {% katex(block=true) %}
 \begin {align*}
 dim(k) & \dots \text{Größe der $k$. Partition} \\
-\mu &= \sum_{k} (x(dim(k)) + y(dim(k)) + z(dim(k))) + \sum_{k} 1 \\
+\mu &= \frac{\sum_{k} x(dim(k)) + y(dim(k)) + z(dim(k))}{\sum_{k} 3} \\
 score &= \sum_{k} |\mu - x(dim(k))| + |\mu - y(dim(k))| + |\mu - z(dim(k))|
 \end {align*}
 {% end %}
