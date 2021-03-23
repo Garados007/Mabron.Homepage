@@ -1,12 +1,12 @@
 +++
-title = "Relaxdays: 3D Packing"
+title = "Hackathon: 3D Packing"
 date = 2021-03-21T21:40:00
 weight=211
 [taxonomies]
 tags=["blog","project","hackathon","relaxdays"]
 +++
 
-# Relaxdays Aufgabe: 3D Packing
+# Hackathon Aufgabe: 3D Packing
 
 Hier noch einmal die Aufgabenbeschreibung:
 
@@ -72,20 +72,29 @@ folgende Lösung entschieden.
 
 Um die folgenden Formeln einfacher zu halten werden folgende Abkürzungen genutzt:
 
-- {{ katex(body="m") }} - Anzahl aller Pakettypen
-- {{ katex(body="cost(i)") }} - Sind die Kosten für den 
-    {{ katex(body="i") }}. Pakettyp.
-- {{ katex(body="dim_{p}(i)" )}} - Sind die Dimensionen für den
+<table>
+<thead>
+<tr><th style="text-align:left;">Symbol</th><th style="text-align:left;">Bedeutung</th></tr>
+</thead>
+<tbody>
+<tr><td>{{ katex(body="P") }}</td><td>Die Menge aller Pakettypen</td></tr>
+<tr><td>{{ katex(body="m=|P|") }}</td><td>Anzahl aller Pakettypen</td></tr>
+<tr><td>{{ katex(body="cost(i)") }}</td><td>Sind die Kosten für den 
+    {{ katex(body="i") }}. Pakettyp.</td></tr>
+<tr><td>{{ katex(body="dim_{p}(i)" )}}</td><td>Sind die Dimensionen für den
     {{ katex(body="i")}}. Pakettyp. Sie sind dann in der Form
-    {{ katex(body="(x,y,z)")}}.
-- {{ katex(body="n")}} - Anzahl aller Artikel
-- {{ katex(body="dim_{a}(j)")}} - Sind die Dimensionen für den
+    {{ katex(body="(x,y,z)")}}.</td></tr>
+<tr><td>{{ katex(body="A") }}</td><td>Die Menge aller Artikel</td></tr>
+<tr><td>{{ katex(body="n=|A|")}}</td><td>Anzahl aller Artikel</td></tr>
+<tr><td>{{ katex(body="dim_{a}(j)")}}</td><td>Sind die Dimensionen für den
     {{ katex(body="j")}}. Artikel. Sie sind dann in der Form
-    {{ katex(body="(x,y,z)")}}.
+    {{ katex(body="(x,y,z)")}}.</td></tr>
+</tbody>
+</table>
 
 ## 1. Artikel sortieren und prüfen
 
-Zuerst haben wir alle Artikel nach der Standardabweichung der Dimensionen absteigend sortiert:
+Wir haben für alle Artikel {{ katex(body="j") }} einen Score über die Standardabweichung der Dimensionen berechnet. Danach wurden diese nach dem Score absteigend sortiert.
 
 {% katex(block=true) %}
 \begin{align*}
@@ -103,9 +112,7 @@ Fehlermeldung aus.
 
 {% katex(block=true) %}
 \forall_{j} \exists_{i}:
-    x(dim_{p}(i)) >= x(dim_{a}(j)) \wedge
-    y(dim_{p}(i)) >= y(dim_{a}(j)) \wedge
-    z(dim_{p}(i)) >= z(dim_{a}(j))
+    dim_{p}(i) \geq dim_{a}(j)
 {% end %}
 
 ### Zweck
@@ -212,7 +219,7 @@ des aktuell gewählten Pakettyps und das Volumen aber **größer oder gleich** d
 in dem Paket ist.
 
 Für jeden dieser Pakettypen gehen wir die [Schritte 3](#3-verpackung-heraussuchen) und
-[4](#4-unterraume-heraussuchen) durch und schauen, ob **alle** gewählten Artikel in diesen Pakettyp
+[4](#4-unterraume-abarbeiten) durch und schauen, ob **alle** gewählten Artikel in diesen Pakettyp
 einsortiert werden können.
 
 Von allen Kandidaten, die Erfolg hatten, wird der mit den **kleinsten** Kosten gewählt. Falls es

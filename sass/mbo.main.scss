@@ -89,3 +89,8 @@ noscript > code {
   white-space: pre;
   overflow: auto;
 }
+@media (min-width: 880px) {
+  body {
+    flex-flow: row-reverse wrap;
+  }
+}
