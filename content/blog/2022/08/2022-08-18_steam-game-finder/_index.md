@@ -2,7 +2,7 @@
 title = "Spieleabend retten"
 date = 2022-08-18T18:00:00
 weight=180
-draft=true
+draft=false
 [taxonomies]
 tags=["blog","project","steam","howto"]
 +++
