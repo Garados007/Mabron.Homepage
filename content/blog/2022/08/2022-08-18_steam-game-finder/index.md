@@ -1,20 +1,21 @@
 +++
 title = "Spieleabend retten"
-date = 2022-08-18T18:00:00
+date = 2022-08-18T15:55:00
 weight=180
-draft=false
 [taxonomies]
 tags=["blog","project","steam","howto"]
 +++
 
 # Spieleabend retten
 
-![Übersichtsseite](page.png)
+[![Übersichtsseite](page.png)](https://play.2complex.de/)
 
 Wer kennt das nicht? Du sitzt mit deinen Freunden am Abend vorm Rechner, jeder hat eine gut
 gefüllte Steam-Bibliothek und keiner hat eine Ahnung, was man nun spielen könnte? Eher ins Bett
 gehen kommt nicht in Frage und zum erneuten Mal immer und immer wieder das gleiche Spiel starten
 will auch keiner. Hierfür habe ich eine Lösung entwickelt. Nun ja, teilweise.
+
+<!-- more -->
 
 Diese Webseite liest von euch allen die Spiele in eurer Steam-Bibliothek ein (sofern ihr diese
 öffentlich zugänglich geschalten habt) und schaut, welche Spiele ihr alle habt und welche ihr

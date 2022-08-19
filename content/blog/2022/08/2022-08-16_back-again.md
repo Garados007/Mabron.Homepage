@@ -14,6 +14,8 @@ wieder aufarbeiten. Außerdem habe ich mich entschieden, hier auch viele meiner 
 dokumentieren oder mehr dazu zu schreiben, damit mein Zukünftiges ich, meine Freunde oder auch
 ihr später nachvollziehen könnt, was hier passiert ist.
 
+<!-- more -->
+
 ## Bachelorarbeit
 
 Was lange wärt, wird doch irgendwann gut. So oder so ähnlich heißt ein altes bekanntes Sprichwort.
