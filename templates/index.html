@@ -35,6 +35,7 @@
         onload="renderMathInElement(document.body);"></script>
           {% endif %}
       {% endif %}
+      <script type="text/javascript" src="{{ get_url(path='initialize-theme.js') | safe }}"></script>
     </head>
 
     <body>
@@ -108,7 +109,7 @@
       {% endblock content %}
       </main>
 
-      <script type="text/javascript" src="{{ get_url(path="themes.js") | safe }}"></script>
+      <script type="text/javascript" src="{{ get_url(path='update-theme-elements.js') | safe }}"></script>
 
       <script>
         function burger() {
