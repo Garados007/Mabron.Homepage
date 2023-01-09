@@ -191,3 +191,5 @@ legitim ist.
 Falls ihr Anmerkungen dazu habt oder zu den Regeln noch etwas dazu auflisten wollt, dann könnt ihr
 auf Github ein [neues Issue erstellen](https://github.com/Garados007/Mabron.Homepage/issues/new)
 oder eine [Diskussion anregen](https://github.com/Garados007/Mabron.Homepage/discussions).
+
+{{ remark_comments() }}

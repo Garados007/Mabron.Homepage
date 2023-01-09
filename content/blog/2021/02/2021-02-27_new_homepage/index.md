@@ -117,3 +117,5 @@ wirklich so:
     
     Ein weiterer Vorteil hat das außerdem: Die Seite ist nach ca. einer halben Sekunde
     komplett geladen. Was will man mehr?
+
+{{ remark_comments() }}

@@ -142,3 +142,5 @@ werde ich nach und nach Teile der Domain `mabron.de` auf die neue Serverlandscha
 wird für immer offline genommen und nur noch in Back-ups oder Archiven existieren. Anderes wird
 modernisiert und weiterhin unter der gleichen Domain verfügbar sein. Aber das ist ein Beitrag für
 einen zukünftigen Blog-Post.
+
+{{ remark_comments() }}

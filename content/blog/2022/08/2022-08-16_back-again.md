@@ -38,3 +38,5 @@ Programm und einem langen Text heraus. Die komplette Arbeit ist derzeit im
 [GitLab der GWDG](https://gitlab.gwdg.de/max.brauer/ba) zu finden. Viel Spaß dabei, euch diese
 anzusehen. Zur Note kann ich leider noch nicht viel sagen (die mündliche Verteidigung habe ich
 mit 1,0 bestanden, die Note zum schriftlichen Teil steht noch aus).
+
+{{ remark_comments() }}

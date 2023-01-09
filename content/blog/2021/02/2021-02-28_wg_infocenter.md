@@ -47,3 +47,5 @@ Zusammengefasst:
 ## Würde ich später was anders machen?
 
 Ja auf jeden Fall. Ich werde bei der nächsten Wohnung von vorherein schauen, wie das anliegende Internet ist und wie ich meine Kabel verlegen kann. Und dann werde ich auch gleich schauen, dass ich nicht wieder ausversehen ein CAT5 (und nicht CAT5e oder CAT6) Kabel irgendwo dazwischen schalte und es ewig nicht mitbekomme.
+
+{{ remark_comments() }}

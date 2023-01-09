@@ -283,3 +283,5 @@ anderer Verpackungen an, welche wahrscheinlich noch ein besseres Ergebnis liefer
 
 Außerdem ist alles bei uns parallelisiert und wird gleichzeitig verarbeitet. Bei Prozessoren mit
 mehreren Kernen können wir da viel rausholen.
+
+{{ remark_comments() }}

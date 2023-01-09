@@ -86,3 +86,5 @@ Hier noch einmal alle wichtigen Links:
 - [altes Projekt](https://github.com/Garados007/Werwolf)
 - [1 Monat Rewrite](https://github.com/Garados007/Mabron.DiscordBots)
 - [neues Projekt](https://github.com/Garados007/Werewolf)
+
+{{ remark_comments() }}

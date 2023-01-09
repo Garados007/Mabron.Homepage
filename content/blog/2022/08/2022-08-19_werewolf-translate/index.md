@@ -87,3 +87,5 @@ wofür der Text genutzt wird.
 ## Wo kann ich starten?
 
 Webseite: [https://werewolf.2complex.de/content/special/translation.html](https://werewolf.2complex.de/content/special/translation.html)
+
+{{ remark_comments() }}

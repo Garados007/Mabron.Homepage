@@ -73,3 +73,5 @@ die verrücktesten Ideen, welche man ausnutzen, belohnen und bestrafen muss.
 
 Durch so viele kleine Details wird dann ein Run doch länger als erwartet. Aber im Endeffekt haben
 wir viel Spaß und es entstehen in unserem Discordchat immer mehr Memes.
+
+{{ remark_comments() }}
