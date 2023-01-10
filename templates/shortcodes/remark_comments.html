@@ -5,7 +5,7 @@
     site_id: 'mabron.de',
     components: ['embed', 'last-comments'],
     max_shown_comments: 100,
-    theme: !root.classList.contains('theme-light') ? 'dark' : 'light',
+    theme: !document.documentElement.classList.contains('theme-light') ? 'dark' : 'light',
     page_title: document.title,
     locale: 'de',
     show_email_subscription: true,

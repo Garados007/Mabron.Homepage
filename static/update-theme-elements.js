@@ -61,13 +61,19 @@
     root.classList.add('theme-' + newTheme)
     root.classList.remove('theme-' + otherTheme)
   
-    let button = document.getElementById('theme-' + otherTheme + '-button')
-    button.classList.add('enabled')
-    button.setAttribute('aria-pressed', false)
-  
-    button = document.getElementById('theme-' + newTheme + '-button')
-    button.classList.remove('enabled')
-    button.setAttribute('aria-pressed', true)
+    let button = document.getElementById('theme-' + otherTheme + '-button');
+    if(button) {
+        button.classList.add('enabled');
+        button.setAttribute('aria-pressed', false);
+      
+        button = document.getElementById('theme-' + newTheme + '-button');
+        button.classList.remove('enabled');
+        button.setAttribute('aria-pressed', true);
+    } else {
+        setTimeout(() => {
+            enableTheme(newTheme, false, false)
+        }, 1000);
+    }
   
     if (save) saveToLocalStorage('preference-theme', newTheme)
   }

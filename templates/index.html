@@ -36,6 +36,7 @@
           {% endif %}
       {% endif %}
       <script type="text/javascript" src="{{ get_url(path='initialize-theme.js') | safe }}"></script>
+      <script type="text/javascript" src="{{ get_url(path='update-theme-elements.js') | safe }}"></script>
     </head>
 
     <body>
@@ -108,8 +109,6 @@
         </article>
       {% endblock content %}
       </main>
-
-      <script type="text/javascript" src="{{ get_url(path='update-theme-elements.js') | safe }}"></script>
 
       <script>
         function burger() {
