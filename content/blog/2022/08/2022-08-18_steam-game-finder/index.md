@@ -4,6 +4,7 @@ date = 2022-08-18T15:55:00
 weight=180
 [taxonomies]
 tags=["blog","project","steam","howto"]
+authors=["Max Brauer"]
 +++
 
 # Spieleabend retten

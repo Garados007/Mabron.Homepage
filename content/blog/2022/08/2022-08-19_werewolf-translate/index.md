@@ -4,6 +4,7 @@ date = 2022-08-19T18:00:00
 weight=190
 [taxonomies]
 tags=["blog","project","werewolf"]
+authors=["Max Brauer"]
 +++
 
 # Übersetzungsseite für Werwölfe von Düsterwald

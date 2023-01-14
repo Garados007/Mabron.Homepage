@@ -4,6 +4,7 @@ date = 2022-12-19T11:13:00
 weight=190
 [taxonomies]
 tags=["blog","game","pokemon"]
+authors=["Max Brauer"]
 +++
 
 # Pokémon Karmesin doch zu leicht

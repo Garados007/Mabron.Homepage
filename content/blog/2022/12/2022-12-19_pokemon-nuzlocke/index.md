@@ -4,6 +4,7 @@ date = 2022-12-19T12:33:00
 weight = 191
 [taxonomies]
 tags=["blog","game","pokemon"]
+authors=["Max Brauer"]
 +++
 
 # Nuzlocke Schwierigkeit in Pokémon
