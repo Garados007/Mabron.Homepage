@@ -10,7 +10,7 @@ authors=["Max Brauer"]
 
 # Umgestaltung der 2 Complex Server
 
-Seit 2015 oder 2016 betreibe ich mit einen guten Freund ein paar Spieleserver im Internet. Das Ganze
+Seit 2016 betreibe ich mit einen guten Freund ein paar Spieleserver im Internet. Das Ganze
 hat recht klein als Minecraft-Server, der im Hintergrund auf meinen Rechner lief, angefangen. Doch
 recht schnell entwickelte sich das weiter, sodass wir uns 2017 einen dedizierten Rechner dafür
 anlegten. Der stand dann bei mir rum und stellte 24/7 Minecraft-Server im Internet bereit. 2018
@@ -18,14 +18,14 @@ erhielt der Rechner ein großes Upgrade.
 
 <!-- more -->
 
-Wieder ein paar Jahre später, ca. 2019 haben wir angefangen, uns im Internet einen Server dazu zu
+Wieder ein paar Jahre später, ca. 2020 haben wir angefangen, uns im Internet einen Server dazu zu
 mieten. Dadurch entstand ein kleines Netzwerk. Im Internet war ein gut erreichbarer Server mit einer
 guten Internetleitung und bei mir zu Hause war ein leistungsfähiger Rechner für die Modded Server.
 
 In der darauf folgenden Zeit haben wir immer mehr Services zu den Servern hinzugefügt. Ich habe
 verschiedene Dienste programmiert und auf dem Online-Server bereitgestellt. Mein Kumpel hat immer
 mehr verschiedene Spiele auf die Server gezogen, sodass immer mehr Leistung nötig wurde und dies mit
-noch mehr Servern kompensiert wurde.
+noch mehr Servern kompensiert wurde (2022 wurde ein zweiter Server hinzugefügt).
 
 Leider wurde nicht alles von Anfang an gut durchdacht, da es einfach historisch gewachsen ist. Für
 ein-zwei Rechner mag das am Anfang noch alles funktioniert haben, aber mittlerweile stoßen wir an
@@ -144,5 +144,13 @@ werde ich nach und nach Teile der Domain `mabron.de` auf die neue Serverlandscha
 wird für immer offline genommen und nur noch in Back-ups oder Archiven existieren. Anderes wird
 modernisiert und weiterhin unter der gleichen Domain verfügbar sein. Aber das ist ein Beitrag für
 einen zukünftigen Blog-Post.
+
+---
+
+## Updates
+
+### 14.01.2023
+
+- es wurden ein paar Jahresangaben korrigiert bzw. konkretisiert
 
 {{ remark_comments() }}
