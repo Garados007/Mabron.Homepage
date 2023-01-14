@@ -3,6 +3,7 @@ title = "Neue Webpräsenz"
 weight=270
 [taxonomies]
 tags=["mabron","blog","github"]
+authors=["Max Brauer"]
 +++
 
 Seit dem 17. Juni 2015 habe ich diese Domain nun und einige Projekte wurden damit umgesetzt und

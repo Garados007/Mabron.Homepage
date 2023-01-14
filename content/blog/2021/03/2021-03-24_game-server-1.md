@@ -4,6 +4,7 @@ date = 2021-03-24T23:54:00
 weight=240
 [taxonomies]
 tags=["blog","project","game-server"]
+authors=["Max Brauer"]
 +++
 
 # Game Server - Beitrag 1

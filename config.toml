@@ -26,6 +26,7 @@ generate_feed = true
 
 taxonomies = [
     {name = "tags", rss = true},
+    {name = "authors"}
 ]
 
 [markdown]

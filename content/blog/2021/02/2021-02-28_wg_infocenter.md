@@ -4,6 +4,7 @@ date = 2021-02-28T11:42:00
 weight=280
 [taxonomies]
 tags=["mabron","blog","wg"]
+authors=["Max Brauer"]
 +++
 
 # WG Informations Center

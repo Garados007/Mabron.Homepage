@@ -2,8 +2,10 @@
 title = "Umgestaltung der 2 Complex Server"
 date = 2022-12-20T17:43:00
 weight=200
+author="Max Brauer"
 [taxonomies]
 tags=["blog","project","2complex","server"]
+authors=["Max Brauer"]
 +++
 
 # Umgestaltung der 2 Complex Server

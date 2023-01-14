@@ -4,6 +4,7 @@ date = 2021-03-21T12:06:00
 weight=210
 [taxonomies]
 tags=["blog","project","hackathon","relaxdays"]
+authors=["Max Brauer"]
 +++
 
 # Der Relaxdays Hackathon

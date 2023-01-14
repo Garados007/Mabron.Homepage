@@ -5,6 +5,7 @@ updated = 2021-03-23T09:30:00
 weight=211
 [taxonomies]
 tags=["blog","project","hackathon","relaxdays"]
+authors=["Max Brauer"]
 +++
 
 # Hackathon Aufgabe: 3D Packing
