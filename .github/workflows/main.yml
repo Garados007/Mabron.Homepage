@@ -56,4 +56,4 @@ jobs:
       - name: "Rsync: Upload changes"
         run: |
           cd publish
-          rsync -avz --dry-run --delete --filter="- .filter" --filter=". .filter" . host:~/webroot/www/
+          rsync -avz --delete --filter="- .filter" --filter=". .filter" . host:~/webroot/www/
