@@ -46,6 +46,7 @@ jobs:
 
       - name: Sync with Rsync
         run: |
+          id && ls -la
           cd publish
           echo "Load rsync filters"
           rsync -rvzm --filter="+ */" --filter="+ .filter" --filter="- *" host:~/webroot/www/ .
