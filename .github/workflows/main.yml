@@ -47,7 +47,7 @@ jobs:
       - name: Sync with Rsync
         run: |
           id && ls -la
-          chown "$(id -u):$(id -g)" -R publish
+          sudo chown "$(id -u):$(id -g)" -R publish
           cd publish
           echo "Load rsync filters"
           rsync -rvzm --filter="+ */" --filter="+ .filter" --filter="- *" host:~/webroot/www/ .
