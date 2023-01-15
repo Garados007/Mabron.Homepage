@@ -48,6 +48,6 @@ jobs:
         run: |
           cd publish
           echo "Load rsync filters"
-          rsync -avzm --filter="+ */" --filter="+ .filter" --filter="- *" host:~/webroot/www/ .
+          rsync -rvzm --filter="+ */" --filter="+ .filter" --filter="- *" host:~/webroot/www/ .
           echo "Upload files"
-          rsync -avz --dry-run --delete --filter=". .filter" . host:~/webroot/www/
+          rsync -avz --dry-run --delete --filter="- .filter" --filter=". .filter" . host:~/webroot/www/
