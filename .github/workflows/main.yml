@@ -44,12 +44,16 @@ jobs:
           config: ${{ secrets.SSH_CONFIG }} 
           if_key_exists: fail
 
-      - name: Sync with Rsync
+      - name: Fix publish permissions
         run: |
-          id && ls -la
           sudo chown "$(id -u):$(id -g)" -R publish
+
+      - name: Load current filters
+        run: |
           cd publish
-          echo "Load rsync filters"
           rsync -rvzm --filter="+ */" --filter="+ .filter" --filter="- *" host:~/webroot/www/ .
-          echo "Upload files"
+
+      - name: "Rsync: Upload changes"
+        run: |
+          cd publish
           rsync -avz --dry-run --delete --filter="- .filter" --filter=". .filter" . host:~/webroot/www/

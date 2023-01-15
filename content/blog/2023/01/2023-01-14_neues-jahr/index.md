@@ -12,7 +12,7 @@ authors=["Max Brauer"]
 Frohes Neues Jahr und ich hoffe ihr habt einen guten Rutsch gehabt. Bei mir am Blog hat sich auch
 etwas getan. Unter anderem gibt es jetzt eine Kommentarspalte und neue Autoren.
 
-<!--more-->
+<!-- more -->
 
 ## Neue Kommentarspalte
 
