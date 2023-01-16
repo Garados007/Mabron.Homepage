@@ -40,8 +40,7 @@ Alternativ, was auch derzeit schon geht, könnt ihr auch gern anonym kommentiere
 ## Neue Autoren
 
 Des weiteren werdet ihr jetzt oben immer sehen wer gerade den aktuellen Blogbeitrag verfasst hat.
-Bis jetzt werde das immer ich - Max Brauer - sein. Das hat den Grund, dass einer meiner Freunde (er
-nennt sich `R`) hier gerne mitmischen möchte, also habe ich ihn angeboten das hier zu tun. So kommt
+Bis jetzt werde das immer ich - Max Brauer - sein. So kommt
 zum einen hier mehr Leben rein und zum anderen muss ich keine zweite Infrastruktur aufbauen.
 
 Ihr werdet schon sehen, wann sein erster Beitrag kommt und über welche Themen er schreibt. Ich bin
