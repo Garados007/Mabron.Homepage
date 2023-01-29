@@ -1,6 +1,6 @@
 +++
 title = "WG Informationen"
-weight = 20
+weight = 40
 order_by = "weight"
 date = 2020-12-10T13:51:20Z
 +++

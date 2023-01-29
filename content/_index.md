@@ -15,3 +15,4 @@ Hier werde ich nun ein paar Projekte von mir vorstellen. Schaut euch einfach mal
 ## Projekte
 
 - [Mein Blog](@/blog/_index.md), wo ich ab und zu mal über Sachen, die mich bewegen schreibe.
+- [Zeugs](@/zeugs/_index.md), wo ein Freund von mir seinen Blog untergebracht hat.
