@@ -75,6 +75,9 @@ code {
 #taxonomies ul address {
   font-style: inherit;
 }
+#taxonomies.taxonomies-section ul:first-child {
+  margin-left: 0;
+}
 .post.preview .post__summary h1 {
   display: none;
 }
