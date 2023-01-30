@@ -14,14 +14,6 @@
     {% endfor %}
    </ul>
   {% endif %}
-
-  {% if section.extra.taxonomies.tags %}
-    <ul>
-    {% for tag in section.extra.taxonomies.tags %}
-      <li><a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}" >#{{ tag }}</a></li>
-    {% endfor %}
-    </ul>
-  {% endif %}
 </div>
 
 <article>{{ section.content | safe }}</article>
