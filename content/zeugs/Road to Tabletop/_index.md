@@ -1,10 +1,8 @@
 +++
 transparent = true
-title = "2023"
-sort_by="date"
-weight=2023
-paginate_by=10
-template = "blog-section.html"
+title = "Road to Tabletop"
+sort_by="weight"
+weight=20
 +++
 
 # Road to Tabletop

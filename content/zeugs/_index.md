@@ -2,7 +2,7 @@
 title = "Zeugs"
 #description = "Zeugs halt"
 
-sort_by="date"
+sort_by="weight"
 #sort_by="weight"
 
 weight = 30
