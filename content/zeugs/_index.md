@@ -10,4 +10,4 @@ tags=["zeugs"]
 authors=["G"]
 +++
 
-Hier sollen einige ausgewählte Projekte vorgestellt und der Fortschritt dieser veranschaulicht werden. Alles möglich Zeug halt.
+Hier sollen einige ausgewählte Projekte vorgestellt und der Fortschritt dieser veranschaulicht werden. Alles mögliche Zeug halt.
