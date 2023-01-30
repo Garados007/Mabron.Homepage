@@ -4,6 +4,24 @@
 
 <h1>{{ section.title }}</h1>
 
+<div id="taxonomies" class="taxonomies-section">
+  {% if section.extra.taxonomies.authors %}
+    <ul>
+    {% for author in section.extra.taxonomies.authors %}
+      <li><address><a rel="author" href="{{ get_taxonomy_url(kind="authors", name=author) | safe }}" >{{ author }}</a></address></li>
+    {% endfor %}
+   </ul>
+  {% endif %}
+
+  {% if section.extra.taxonomies.tags %}
+    <ul>
+    {% for tag in section.extra.taxonomies.tags %}
+      <li><a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}" >#{{ tag }}</a></li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+</div>
+
 <article>{{ section.content | safe }}</article>
 
 <div class="posts">
