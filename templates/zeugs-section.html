@@ -20,7 +20,7 @@
 
 {% if section.extra.updated %}
   <div class="updated">
-    <a href="https://github.com/Garados007/Mabron.Homepage/commits/main/content/{{ page.relative_path }}" target="_blank">
+    <a href="https://github.com/Garados007/Mabron.Homepage/commits/main/content/{{ section.relative_path }}" target="_blank">
       Aktualisiert am:
       <time pubdate datetime="{{ section.extra.updated | date(format='%Y-%m-%d') }}">{{ section.extra.updated | date(format="%d.%m.%Y") }}</time>
     </a>
