@@ -102,6 +102,13 @@ noscript > code {
 .updated {
   font-style: italic;
   color: var(--second-text-color, #888);
+
+  a {
+    color: inherit;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 @media (min-width: 880px) {
   body {

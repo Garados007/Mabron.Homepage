@@ -43,8 +43,17 @@
 
 {% if page.updated and page.updated != page.date %}
   <div class="updated">
-    Aktualisiert am:
-    <time pubdate datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format="%d.%m.%Y") }}</time>
+    <a href="https://github.com/Garados007/Mabron.Homepage/commits/main/content/{{ page.relative_path }}" target="_blank">
+      Aktualisiert am:
+      <time pubdate datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format="%d.%m.%Y") }}</time>
+    </a>
+  </div>
+{% else %}
+  <div class="updated">
+    <a href="https://github.com/Garados007/Mabron.Homepage/commits/main/content/{{ page.relative_path }}" target="_blank">
+      Stand:
+      <time pubdate datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format="%d.%m.%Y") }}</time>
+    </a>
   </div>
 {% endif %}
 
