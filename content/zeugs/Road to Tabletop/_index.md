@@ -1,13 +1,12 @@
 +++
-transparent = true
 title = "Road to Tabletop"
-sort_by="weight"
+order_by="weight"
 weight=20
-paginate_by=10
-template = "blog-section.html"
+insert_anchor_links = "right"
+template = "zeug-section.html"
 [extra.taxonomies]
 tags=["zeugs","tabletop"]
-authors=["R"]
+authors=["G"]
 +++
 
 Seit einiger Zeit bin ich am Tabletop-Hobby interessiert und habe immer wieder damit angefangen mich mit bestimmten Systemen zu beschäftigen.
