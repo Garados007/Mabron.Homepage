@@ -3,9 +3,9 @@ transparent = true
 title = "Monstersammeln"
 order_by= "weight"
 weight=20
-paginate_by=10
-template = "blog-section.html"
-[extra.taxonomies]
+date=2023-01-30T23:00:00
+updated=2023-01-30T23:00:00
+[taxonomies]
 tags=["zeugs","videospiele","monstersammeln"]
 authors=["G"]
 +++

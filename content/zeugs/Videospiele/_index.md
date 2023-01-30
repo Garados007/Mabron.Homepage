@@ -1,10 +1,9 @@
 +++
-transparent = true
 title = "Videospiele"
-sort_by="weight"
+order_by="weight"
 weight=20
-paginate_by=10
-template = "blog-section.html"
+insert_anchor_links = "right"
+template = "zeug-section.html"
 [extra.taxonomies]
 tags=["zeugs","videospiele"]
 authors=["G"]
