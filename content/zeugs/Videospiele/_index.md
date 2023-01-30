@@ -3,7 +3,7 @@ title = "Videospiele"
 order_by="weight"
 weight=20
 insert_anchor_links = "right"
-template = "zeug-section.html"
+template = "zeugs-section.html"
 [extra.taxonomies]
 tags=["zeugs","videospiele"]
 authors=["G"]

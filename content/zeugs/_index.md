@@ -4,7 +4,7 @@ order_by="weight"
 weight = 30
 insert_anchor_links = "right"
 generate_feed = true
-template = "zeug-section.html"
+template = "zeugs-section.html"
 [extra.taxonomies]
 tags=["zeugs"]
 authors=["G"]
