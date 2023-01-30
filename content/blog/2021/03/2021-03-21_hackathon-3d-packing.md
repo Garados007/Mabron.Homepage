@@ -32,7 +32,7 @@ Hier noch einmal die Aufgabenbeschreibung:
 >   "articles":[[10,10,5],[5,5,5],[9,4,5],[10,20,10],[10,10,10]]
 > }
 > ```
-> 
+>
 > In diesem Fall haben wir 2 Paketsorten zur Auswahl und müssen 5 Artikel versenden. Bei den
 > Paketsorten ist in `"dimensions"` jeweils eine x, eine y und eine z-Ausprägung angegeben. Außerdem
 > sind die Versandkosten als `"cost"` gegeben. Bei den Artikeln sind jeweils x, y und z-Ausprägungen
@@ -40,7 +40,7 @@ Hier noch einmal die Aufgabenbeschreibung:
 >
 > **Gesucht**: Aufteilung der Artikel auf die Pakete und Positionierung der Artikel innerhalb der
 > Pakete. Das Optimierungsziel ist es, die insgesamten Versandkosten zu minimieren.
-> 
+>
 > ```json
 > {
 >   "used_packages":[0,1,1],
@@ -81,7 +81,7 @@ Um die folgenden Formeln einfacher zu halten werden folgende Abkürzungen genutz
 <tbody>
 <tr><td>{{ katex(body="P") }}</td><td>Die Menge aller Pakettypen</td></tr>
 <tr><td>{{ katex(body="m=|P|") }}</td><td>Anzahl aller Pakettypen</td></tr>
-<tr><td>{{ katex(body="cost(i)") }}</td><td>Sind die Kosten für den 
+<tr><td>{{ katex(body="cost(i)") }}</td><td>Sind die Kosten für den
     {{ katex(body="i") }}. Pakettyp.</td></tr>
 <tr><td>{{ katex(body="dim_{p}(i)" )}}</td><td>Sind die Dimensionen für den
     {{ katex(body="i")}}. Pakettyp. Sie sind dann in der Form
@@ -259,7 +259,7 @@ Für die parallele Verarbeitung erstellen wir die Anzahl an Prozessoren an Tasks
 
 ### Artikel-Liste
 
-Für unsere Artikelliste haben wir eine speziele Implementierung erstellt, bei der wir gleichzeitig in mehreren Tasks über die Liste ohne Sperren iterieren können. 
+Für unsere Artikelliste haben wir eine speziele Implementierung erstellt, bei der wir gleichzeitig in mehreren Tasks über die Liste ohne Sperren iterieren können.
 
 Jeder Task schaut sich die Artikel nacheinander an. Sobald man einen Artikel gefunden hat, versucht
 man sich den Artikel zu reservieren, indem man in einer atomaren Operation einen Wert schreibt. Dann
@@ -284,5 +284,3 @@ anderer Verpackungen an, welche wahrscheinlich noch ein besseres Ergebnis liefer
 
 Außerdem ist alles bei uns parallelisiert und wird gleichzeitig verarbeitet. Bei Prozessoren mit
 mehreren Kernen können wir da viel rausholen.
-
-{{ remark_comments() }}

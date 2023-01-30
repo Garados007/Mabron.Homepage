@@ -43,7 +43,7 @@ Im Ordner `/content/lang/{system}/{theme}/` gibt es dann die Texte für die einz
 `{system}` ist hierbei eine spezifische Implementierung, welche von Werwolf unterstützt wird.
 Derzeit gibt es nur `Werewolf.Theme.Default.DefaultTheme`. `{theme}` ist eine beliebiges Theme,
 welches angewandt wird. Standardmäßig gibt wird immer `default` verwendet. Alle Themes verhalten
-sich in einem System gleich, nur die Texte sind anders. 
+sich in einem System gleich, nur die Texte sind anders.
 
 ## Wie wird das bearbeitet?
 
@@ -88,5 +88,3 @@ wofür der Text genutzt wird.
 ## Wo kann ich starten?
 
 Webseite: [https://werewolf.2complex.de/content/special/translation.html](https://werewolf.2complex.de/content/special/translation.html)
-
-{{ remark_comments() }}

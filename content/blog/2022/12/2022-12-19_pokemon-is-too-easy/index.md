@@ -85,5 +85,3 @@ Schwierigkeitsregler, der auf folgende Stufen einstellbar ist:
 Schade, dass das nicht eingebaut ist, ich hätte das als sehr hilfreich empfunden, um mir dauerhaft
 den Spaß am Spiel zu garantieren. Bis gestern empfand ich das Spiel als sehr gelungen, trotz der
 Bugs. Doch nun finde ich es einfach nur mäßig und traurig - nicht zu empfehlen.
-
-{{ remark_comments() }}

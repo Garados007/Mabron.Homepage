@@ -82,5 +82,3 @@ Natürlich sind das alles Features!
 
 Ich werde demnächst noch einen Post schreiben, wo ich auf ein paar interessante technische Dinge
 eingehen werde.
-
-{{ remark_comments() }}

@@ -45,5 +45,3 @@ zum einen hier mehr Leben rein und zum anderen muss ich keine zweite Infrastrukt
 
 Ihr werdet schon sehen, wann sein erster Beitrag kommt und über welche Themen er schreibt. Ich bin
 schon selbst gespannt.
-
-{{ remark_comments() }}

@@ -58,5 +58,3 @@ Meine Einzellösungen:
   Hackathon)
 - [Dockerfile Komprimierung](https://github.com/Garados007/RelaxHackathon.Compression)
 - [Fubini Zahlen](https://github.com/Garados007/RelaxHackathon.Fubini)
-
-{{ remark_comments() }}

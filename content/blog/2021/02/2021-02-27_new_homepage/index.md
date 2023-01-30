@@ -38,22 +38,22 @@ ungefähre Vorstellung davon wie meine Webseite eigentlich funktionieren soll.
 
 Die einfachste Art wäre alles selbst in HTML zu schreiben. Am Anfang habe ich das tatsächlich
 versucht, aber irgendwann habe ich es einfach aufgegeben, da es äußerst umständlich ist alles per
-Hand zu coden. Ein weiterer Nachteil war die umständliche Bereitstellung. Ich musste alles auf 
+Hand zu coden. Ein weiterer Nachteil war die umständliche Bereitstellung. Ich musste alles auf
 meinem Computer erstellen und dann über FTP (später SFTP) auf den Server übertragen.
 
-Das hat häufig zu irgendwelchen Fehlern geführt, da ich irgendwelche Dateien vergessen habe, 
+Das hat häufig zu irgendwelchen Fehlern geführt, da ich irgendwelche Dateien vergessen habe,
 fehlerhaft waren oder noch für mein lokales System ausgelegt waren. Das alles zu automatisieren
 wäre ein Traum.
 
-Auf der anderen Seite stehen CMS Systeme wie Wordpress oder TYPO3. Diese soll ich einmal auf dem 
-Server installieren und dann sollten sie sich um alles kümmern. 
+Auf der anderen Seite stehen CMS Systeme wie Wordpress oder TYPO3. Diese soll ich einmal auf dem
+Server installieren und dann sollten sie sich um alles kümmern.
 Leider ist dem nicht ganz so und sie haben gleich mehrere Nachteile:
 
 - Sie sind unheimlich groß. Ich muss viel installieren, um eine einfache Webseite hinzubekommen.
 - Sie sind langsam. Jedes dieser CMS Systeme führt bei jeden Seitenaufruf PHP Code aus (auf dem
-    Webserver geht leider nur PHP) und machen einige Datenbankabfragen. 
-    
-    An sich nichts schlechtes für eine flexible Anwendung, aber leider nichts für mich. Ich habe 
+    Webserver geht leider nur PHP) und machen einige Datenbankabfragen.
+
+    An sich nichts schlechtes für eine flexible Anwendung, aber leider nichts für mich. Ich habe
     hauptsächlich statischen Content und dafür muss ich nicht 1000 mal die Seite neu aufbauen.
 - Die CMS Systeme für meine Zwecke zu optimieren und anzupassen braucht viel Arbeit. Das wird dann
     nur noch "hacky" und unschön.
@@ -80,7 +80,7 @@ Und dann stand dann mein Plan fest:
 
 1. Ich schreibe meine Inhalte wenn möglich alle in Markdown.
     > Nerviges Eintippen von HTML fällt weg.
-2. Kleine Skripte wandeln für mich den Markdown um und bauen daraus dann eine statische Webseite 
+2. Kleine Skripte wandeln für mich den Markdown um und bauen daraus dann eine statische Webseite
     auf.
     > Ich brauche keine große Installation im Hintergrund.
 3. Ein automatischer Prozess sorgt sich um alles.
@@ -114,9 +114,7 @@ wirklich so:
 - Auf dem Server sind nur statische HTML Dateien. Keine Uploads, keine Anmeldungen oder
     Datenbankabfragen. Es muss kein Code ausgeführt werden, damit der nicht vorhandene
     Besucherzähler hochzählt. Bedeutet: Ich brauche mich da nicht mehr darum zu kümmern, dass alles
-    sicher ist. 
-    
+    sicher ist.
+
     Ein weiterer Vorteil hat das außerdem: Die Seite ist nach ca. einer halben Sekunde
     komplett geladen. Was will man mehr?
-
-{{ remark_comments() }}

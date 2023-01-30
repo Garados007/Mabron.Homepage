@@ -99,6 +99,10 @@ noscript > code {
   white-space: pre;
   overflow: auto;
 }
+.updated {
+  font-style: italic;
+  color: var(--second-text-color, #888);
+}
 @media (min-width: 880px) {
   body {
     flex-flow: row-reverse wrap;

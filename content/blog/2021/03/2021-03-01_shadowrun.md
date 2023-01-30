@@ -9,20 +9,20 @@ authors=["Max Brauer"]
 
 # Das PnP Spiel ShadowRun
 
-Vor ich weiß nicht mehr genau wie lange das her ist (ca. 1-2 Jahre), als ein paar Freunde und ich 
-angefangen haben ein Pen und Paper spielen zu wollen. Entschieden haben wir uns für ShadowRun 
+Vor ich weiß nicht mehr genau wie lange das her ist (ca. 1-2 Jahre), als ein paar Freunde und ich
+angefangen haben ein Pen und Paper spielen zu wollen. Entschieden haben wir uns für ShadowRun
 (unter anderem weil das Regelwerk bei mir eh schon rum lag) und ich wurde als Spielleiter
 auserkohren.
 
 <!-- more -->
 
 Von nun an verbrachte ich viel Zeit damit mich in das über 500 seitige Regelwerk durchzuarbeiten und
-dabei machte ich mir Notizen und bereitete einige Runs vor. Schnell merkte ich, dass Spielleiter 
+dabei machte ich mir Notizen und bereitete einige Runs vor. Schnell merkte ich, dass Spielleiter
 sein ein knochenharter Job ist und die Vorbereitung eigentlich den größten Teil am Spiel einnimmt.
 
 Meine Notizen waren zuerst auf Papier, später in irgendwelchen Textdokumenten und dann habe ich
 mir eine Struktur in mehreren Markdowndokumenten angelegt. Lange Zeit waren die Daten in einer
-privaten gehosteten Cloud bis ich mich entschied dies [hier](@/projects/shadowrun/rules/_index.md) 
+privaten gehosteten Cloud bis ich mich entschied dies [hier](@/projects/shadowrun/rules/_index.md)
 auf der Webseite mit zu veröffentlichen.
 
 Außerdem erstellte ich noch ein paar Hilfsdokumente, welche einen die Arbeit erleichtern soll.
@@ -36,8 +36,8 @@ daher spielten wir über Discord und Roll20. Doch hierfür braucht man deutlich 
 
 Während es persönlich noch möglich war sich zu sehen und besser zu interagieren, fällt das online
 komplett weg. Selbst die Kamera brachte wenig, da nur die wenigsten einen 2. Bildschirm hatten.
-Dann verlangte Roll20 einen zusätzliche Arbeit ab, unter anderem liefert es einen eigenen 
-Charakterbogen, welche auch gepflegt werden wollte und umständlicher auszufüllen war als mein 
+Dann verlangte Roll20 einen zusätzliche Arbeit ab, unter anderem liefert es einen eigenen
+Charakterbogen, welche auch gepflegt werden wollte und umständlicher auszufüllen war als mein
 eigenes Template auf Papier.
 
 Und Roll20 hat leider die Ansprüche der Mitspieler stark nach oben gezogen. So verlangte man nun
@@ -74,5 +74,3 @@ die verrücktesten Ideen, welche man ausnutzen, belohnen und bestrafen muss.
 
 Durch so viele kleine Details wird dann ein Run doch länger als erwartet. Aber im Endeffekt haben
 wir viel Spaß und es entstehen in unserem Discordchat immer mehr Memes.
-
-{{ remark_comments() }}

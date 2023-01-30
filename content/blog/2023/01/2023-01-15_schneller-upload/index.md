@@ -33,5 +33,3 @@ hinterlegen.
 So habe ich mich nun hingesetzt und den Synchronisationsprozess auf Rsync umgestellt. Dadurch ist
 die komplette Ausführzeit der CI Pipeline auf Github Actions auf unter eine Minute geschrumpft und
 ich muss nicht mehr mit halb-funktionierenden Skripten hantieren.
-
-{{ remark_comments() }}

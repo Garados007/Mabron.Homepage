@@ -1,5 +1,7 @@
 {% extends "index.html" %}
 
+{% import "macros/remark_comments.html" as rc_macro %}
+
 {% block title %} {{ config.title }} | {{ page.title }} {% endblock title %}
 
 {% block nav %}
@@ -38,5 +40,14 @@
   <article>
     {{ page.content | safe }}
   </article>
+
+{% if page.updated and page.updated != page.date %}
+  <div class="updated">
+    Aktualisiert am:
+    <time pubdate datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format="%d.%m.%Y") }}</time>
+  </div>
+{% endif %}
+
+{{ rc_macro::remark_comments() }}
 
 {% endblock content %}

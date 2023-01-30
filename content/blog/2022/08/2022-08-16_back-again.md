@@ -9,7 +9,7 @@ authors=["Max Brauer"]
 
 # Wieder zurück
 
-Hallo Welt, ich bin wieder da. Ein Jahr ist hier nix mehr auf dieser Webseite passiert. Dafür umso 
+Hallo Welt, ich bin wieder da. Ein Jahr ist hier nix mehr auf dieser Webseite passiert. Dafür umso
 mehr privat oder bei eigenen Projekten. Dies werde ich nun in diesen und kommenden Beiträgen
 wieder aufarbeiten. Außerdem habe ich mich entschieden, hier auch viele meiner Projekte zu
 dokumentieren oder mehr dazu zu schreiben, damit mein Zukünftiges ich, meine Freunde oder auch
@@ -31,7 +31,7 @@ wurden mir ein paar Themen angeboten, wo ich mir eins ausgesucht habe. Dann brau
 einen Betreuer von der Uni (es wurde der Professor am Datenbankenlehrstuhl) und schon ging es los.
 Die vermeintlich stressigsten fünfeinhalb Monate seit Langem. Es gab dann nur noch folgende Dinge
 auf meinem Zeitplan: Essen, Schlafen, Trinken, Arbeit, Bachelorarbeit und ein wenig MMORPG.
-Zwischendurch gab es noch eine Coronainfektion, wo ich über eine Woche im Bett zwei Wochen 
+Zwischendurch gab es noch eine Coronainfektion, wo ich über eine Woche im Bett zwei Wochen
 krank geschrieben und vier Wochen nichts an der Arbeit gemacht wurde. Lohnt sich, sage ich da nur.
 
 Zum Schluss kam eine hübsche Arbeit zum Forschungsdatenmanagement mit viel Recherche, einem großen
@@ -39,5 +39,3 @@ Programm und einem langen Text heraus. Die komplette Arbeit ist derzeit im
 [GitLab der GWDG](https://gitlab.gwdg.de/max.brauer/ba) zu finden. Viel Spaß dabei, euch diese
 anzusehen. Zur Note kann ich leider noch nicht viel sagen (die mündliche Verteidigung habe ich
 mit 1,0 bestanden, die Note zum schriftlichen Teil steht noch aus).
-
-{{ remark_comments() }}

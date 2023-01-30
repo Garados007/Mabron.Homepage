@@ -152,5 +152,3 @@ einen zukünftigen Blog-Post.
 ### 14.01.2023
 
 - es wurden ein paar Jahresangaben korrigiert bzw. konkretisiert
-
-{{ remark_comments() }}
