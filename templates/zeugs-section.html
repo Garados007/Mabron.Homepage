@@ -8,6 +8,7 @@
 
 <div id="taxonomies" class="taxonomies-section">
   {% if section.extra.taxonomies.authors %}
+    <div class="authors">Autor(en):</div>
     <ul>
     {% for author in section.extra.taxonomies.authors %}
       <li><address>{{ author }}</address></li>
