@@ -1,6 +1,5 @@
 +++
-title = "Zeugs"
-#description = "Zeugs halt"
+title = "Zeugs halt"
 
 sort_by="weight"
 #sort_by="weight"
@@ -15,9 +14,5 @@ generate_feed = true
 
 template = "blog-section.html"
 +++
-
-# Zeugs halt
-
-
 
 Hier sollen einige ausgewählte Projekte vorgestellt und der Fortschritt dieser veranschaulicht werden. Alles möglich Zeug halt.
