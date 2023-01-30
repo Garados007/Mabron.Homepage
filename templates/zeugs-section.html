@@ -10,7 +10,7 @@
   {% if section.extra.taxonomies.authors %}
     <ul>
     {% for author in section.extra.taxonomies.authors %}
-      <li><address><a rel="author" href="{{ get_taxonomy_url(kind="authors", name=author) | safe }}" >{{ author }}</a></address></li>
+      <li><address>{{ author }}</address></li>
     {% endfor %}
    </ul>
   {% endif %}
