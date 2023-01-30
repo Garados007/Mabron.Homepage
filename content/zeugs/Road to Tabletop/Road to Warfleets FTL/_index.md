@@ -1,16 +1,15 @@
 +++
-transparent = true
 title = "Road to Warfleets FTL"
 order_by="weight"
 weight=20
-date=2023-01-30T18:53:00
-updated=2023-01-30T18:53:01
-[taxonomies]
+insert_anchor_links = "right"
+template = "zeugs-section.html"
+[extra]
+updated=2023-01-30T23:11:00
+[extra.taxonomies]
 tags=["zeugs","tabletop","warfleet"]
 authors=["G"]
 +++
-
-# Road to Warfleets FTL
 
 Warfleets: FTL ist ein Miniaturenspiel von One-Page-Rules, das in einer fernen Galaxie im Krieg spielt und so konzipiert ist, dass es leicht zu erlernen, aber schwer zu meistern ist.
 Die Spieler stellen eine Flotte zusammen und kämpfen, um Zielmarker zu sichern und wiederzugewinnen, indem sie Schlachtflottentaktiken anwenden, um zu gewinnen. Das Spiel bietet alternierende Schiffsphasen und brutal schnelle Kämpfe, welche die Spieler zu jeder Zeit beschäftigen.

@@ -1,16 +1,15 @@
 +++
-transparent = true
 title = "Monstersammeln"
 order_by= "weight"
 weight=20
-date=2023-01-30T23:00:00
-updated=2023-01-30T23:00:00
-[taxonomies]
+insert_anchor_links = "right"
+template = "zeugs-section.html"
+[extra]
+updated=2023-01-30T23:11:00
+[extra.taxonomies]
 tags=["zeugs","videospiele","monstersammeln"]
 authors=["G"]
 +++
-
-# Monstersammeln
 
 Schon seit geraumer Zeit gibt es einige Vertreter des Monstersammel-Genres. Der wohl berühmteste ist die Pokemon-Reihe. Doch auch Abseits gibt es einige äußerst interessante Spiele zu entdecken
 
