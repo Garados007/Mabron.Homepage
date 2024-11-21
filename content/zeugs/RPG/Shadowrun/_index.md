@@ -5,7 +5,7 @@ weight=20
 insert_anchor_links = "right"
 template = "zeugs-section.html"
 [extra]
-updated=2023-01-30T23:11:00
+updated=2024-11-21T23:35:00
 [extra.taxonomies]
 tags=["zeugs","RPG","Shadowrun"]
 authors=["GemüseEier"]
@@ -17,6 +17,3 @@ Platzhalter Shadowrun 6
 
 Test
 
-<!-- more -->
-
-funktionieren mehrere

@@ -8,7 +8,7 @@ template = "zeugs-section.html"
 updated=2023-01-30T23:11:00
 [extra.taxonomies]
 tags=["zeugs"]
-authors=["G"]
+authors=["GemüseEier"]
 +++
 
 Hier sollen einige ausgewählte Projekte vorgestellt und der Fortschritt dieser veranschaulicht werden. Alles mögliche Zeug halt.
