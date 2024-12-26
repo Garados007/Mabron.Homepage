@@ -1,0 +1,21 @@
+name: Test PR
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: build site
+        run: chmod +x build.sh && ./build.sh
+
+      - name: 'Build Zola'
+        uses: shalzz/zola-deploy-action@master
+        env:
+          BUILD_DIR: .
+          BUILD_FLAGS: --output-dir publish --base-url https://mabron.de/
+          BUILD_ONLY: true
