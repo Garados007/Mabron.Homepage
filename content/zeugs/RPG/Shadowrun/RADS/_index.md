@@ -1,6 +1,6 @@
 +++
 title = "Road to RADS"
-order_by="weight"
+sort_by="weight"
 weight=20
 insert_anchor_links = "right"
 template = "zeugs-section.html"
