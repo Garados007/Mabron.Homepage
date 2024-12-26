@@ -1,8 +1,8 @@
 +++
 title = "WG Informationen"
 weight = 40
-order_by = "weight"
-date = 2020-12-10T13:51:20Z
+sort_by = "weight"
+# date = 2020-12-10T13:51:20Z
 +++
 
 # Informationsseite für die WG am Rosengarten

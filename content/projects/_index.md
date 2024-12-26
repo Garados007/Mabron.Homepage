@@ -1,7 +1,7 @@
 +++
 title = "Projekte"
 weight= 20
-order_by= "weight"
+sort_by= "weight"
 insert_anchor_links = "right"
 +++
 

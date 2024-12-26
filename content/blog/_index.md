@@ -11,7 +11,7 @@ paginate_by = 10
 
 insert_anchor_links = "right"
 
-generate_feed = true
+generate_feeds = true
 
 template = "blog-section.html"
 +++

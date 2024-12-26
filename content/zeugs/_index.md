@@ -1,6 +1,6 @@
 +++
 title = "Zeugs halt"
-order_by="weight"
+sort_by="weight"
 weight = 30
 insert_anchor_links = "right"
 template = "zeugs-section.html"

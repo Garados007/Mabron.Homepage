@@ -1,6 +1,6 @@
 +++
 title = "Regeln"
-order_by = "none"
+sort_by = "none"
 weight = 10
 insert_anchor_links = "right"
 +++
