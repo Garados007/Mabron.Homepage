@@ -15,4 +15,6 @@ Hier werde ich nun ein paar Projekte von mir vorstellen. Schaut euch einfach mal
 ## Projekte
 
 - [Mein Blog](@/blog/_index.md), wo ich ab und zu mal über Sachen, die mich bewegen schreibe.
+- [Meine Rätsel](@/projects/quizz/_index.md), wo ich unregelmäßig neue Aufgaben
+  veröffentliche
 - [Zeugs](@/zeugs/_index.md), wo ein Freund von mir seinen Blog untergebracht hat.
