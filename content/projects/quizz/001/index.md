@@ -3,7 +3,7 @@ title = "Aufgabe 1"
 weight = 1
 date = 2025-01-01T15:52:00
 [taxonomies]
-tags=["blog", "mabron"]
+tags=["quiz", "mabron"]
 authors=["Max Brauer"]
 +++
 
